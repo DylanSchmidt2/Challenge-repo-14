@@ -43,7 +43,5 @@
   ## Tests 
  n/a 
 
-  ## Questions 
- Email:sked98@gmail.com 
- [sophiekedrowski](https://www.github.com/sophiekedrowski) 
+
 
