@@ -1,0 +1,36 @@
+<div class='register-card'>
+  <h1>Register</h1>
+  <div class='main'>
+    <div class='column'>
+      <form>
+        <div class='nes-field'>
+          <label for='name_field'>Username</label>
+          <input type='text' class='nes-input' id='username-signup' placeholder='Enter Username' />
+        </div>
+        <div class='nes-field'>
+          <label for='name_field'>Email</label>
+          <input
+            type='text'
+            class='nes-input'
+            id='email-signup'
+            placeholder='Enter Email Address'
+          />
+        </div>
+        <div class='nes-field'>
+          <label for='name-field'>Password</label>
+          <input type='password' class='nes-input' id='password-signup' placeholder='Enter Password' />
+        </div>
+        <button
+          type='submit'
+          class='nes-btn is-primary'
+          id='register-btn'
+        >Register</button>
+        <p>Existing User>
+          <button onclick='window.location.href="/login"' type='button' class='nes-btn signin-reroute is-small'>
+            Login</button>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+<script src='../public/js/register.js'></script>

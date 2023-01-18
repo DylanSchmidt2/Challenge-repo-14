@@ -1,0 +1,36 @@
+<div class='login-card'>
+  <h1>Log In</h1>
+  <div class='main'>
+    <div class='column'>
+      <form>
+        <div class='nes-field'>
+          <label for='name_field'>Email</label>
+          <input
+            type='text'
+            class='nes-input'
+            id='email-login'
+            placeholder='Enter Email Address'
+          />
+        </div>
+        <div class='nes-field'>
+          <label for='name-field'>Password</label>
+          <input
+            type='password'
+            class='nes-input'
+            id='password-login'
+            placeholder='Enter Password'
+          />
+        </div>
+        <button
+          type='submit'
+          class='nes-btn is-primary login-btn'
+        >Login</button>
+        <p>New User>
+          <button onclick='window.location.href="/register"'type='button' class='nes-btn signin-reroute is-small'>
+            Register</button>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+<script src='/js/login.js'></script>

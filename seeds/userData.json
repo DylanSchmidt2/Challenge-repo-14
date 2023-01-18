@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "Dylan",
+        "email" : "creator1@gmail.com",
+        "password" : "LetsGo!"
+    },
+    {
+        "name" : "Parker",
+        "email" : "creator2@gmail.com",
+        "password" : "EatBig!"
+    }, 
+    {
+        "name" : "Martin",
+        "email" : "creator3@gmail.com",
+        "password" : "BassFishing"
+    }, 
+    {
+        "name" : "Julie",
+        "email" : "creator4@gmail.com",
+        "password" : "RollerCoaster!"
+    }, 
+    {
+        "name" : "Bella",
+        "email" : "creator5@gmail.com",
+        "password" : "SnackTime!"
+    },
+    {
+        "name" : "Buddy",
+        "email" : "creator6@gmail.com",
+        "password" : "PopGoes!"
+    }
+]

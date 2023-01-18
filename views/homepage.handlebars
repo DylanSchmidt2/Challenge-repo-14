@@ -1,0 +1,19 @@
+{{#each posts as |post|}}
+  <div class='post'>
+    <div class='nes-container with-title is-rounded'>
+      <p class='title'>{{post.title}}
+        by
+        {{post.user.name}}
+        on
+        {{format_date post.date_created}}</p>
+      <p>{{post.text}}</p>
+      <div class='reactions'>
+        <i class='nes-icon is-large star is-empty'></i>
+        <button
+          type='button'
+          class='nes-btn comment-btn is-success'
+        >Comment</button>
+      </div>
+    </div>
+  </div>
+{{/each}}
