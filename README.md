@@ -25,6 +25,12 @@ This project is a full stack web application that utilizes Model-View-Controller
 
 ## [Link to Heroku App](https://CMS-style-blog.herokuapp.com/)
 
+## Bugs
+
+ * Get & Post routes not working at time of submission.
+## Screenshot of Herokuapp (When I had it working)
+
+https://github.com/DylanSchmidt2/Challenge-repo-14/blob/main/Images/heroku%20app%20ss.PNG
 ## Thanks to
 * Nick Menzhuber (seeds)
 * Parker Thompson
