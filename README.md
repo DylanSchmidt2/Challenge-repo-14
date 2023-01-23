@@ -1,4 +1,4 @@
-# A CMS-style blog
+# CMS-style-blog
 
 ## Summary
 ```
@@ -22,6 +22,9 @@ This project is a full stack web application that utilizes Model-View-Controller
 [express handlebars](https://www.npmjs.com/package/express-handlebars/)
 
 [express session](https://www.npmjs.com/package/express-session/)
+
+## [Link to Heroku App](https://CMS-style-blog.herokuapp.com/)
+
 ## Thanks to
 * Nick Menzhuber (seeds)
 * Parker Thompson
