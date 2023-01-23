@@ -11,10 +11,6 @@ Post.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    favs: {
-      type: DataTypes.INTEGER,
-      defaultValue: 0
-    },
     title: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -22,11 +18,6 @@ Post.init(
     text: {
       type: DataTypes.TEXT('medium'),
       allowNull: false,
-    },
-    date_created: {
-      type: DataTypes.DATE,
-      allowNull: false,
-      defaultValue: DataTypes.NOW,
     },
     user_id: {
       type: DataTypes.INTEGER,
