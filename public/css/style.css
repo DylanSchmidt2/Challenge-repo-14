@@ -1,52 +1,16 @@
-body {
-    background-color: #e5e5e5
+* {
+    font-family: 'Prompt', sans-serif
 }
 
-.header {
-    background-color: #7c7c7c;
-    height: 15em;
-    display: block;
+.bg-home {
+    background-color: rgb(192, 192, 192);
 }
 
-.navbarbtns {
-    padding-top: 15px;
-    padding-left: 15px;
-    justify-content: start;
+.bg-comment {
+    background-color: rgb(235, 233, 233)
 }
 
-.homebutton {
-    height: 70px;
-    padding-left: 15px;
-    margin-left: 15px;
-    margin-top: 30px;
-    align-items: end;
-    
-}
-
-.login-card, .register-card {
-    width: 50%;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 50px;
-}
-
-.nes-field {
-    margin: 25px;
-}
-
-.signin-reroute {
-    margin-top: 50px;
-}
-
-#login-btn, #register-btn {
-    margin: 20px;
-}
-
-.post {
-    margin: 30px;
-}
-
-.reactions {
-    display: flex;
-    justify-content: space-between;
+.row {
+    margin-left: 0;
+    margin-right: 0;
 }
